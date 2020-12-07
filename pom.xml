@@ -21,6 +21,10 @@
       <groupId>org.hibernate</groupId>
       <artifactId>hibernate-core</artifactId>
       <version>5.0.6.Final</version>
+      <exclusions>
+        <groupId>org.jboss.logging</groupId>
+        <artifactId>jboss-logging</artifactId>
+      </exclusions>
     </dependency>
   </dependencies>
 
