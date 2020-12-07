@@ -2,6 +2,9 @@
 
 Just learning a bit of Maven.
 
+* Transitive dependencies (dependencies of dependencies)
+* Transitive dependencies can be removed (beware, though)
+
 ## Commands
 
 * `mvn clean` - deletes *target* folder.
