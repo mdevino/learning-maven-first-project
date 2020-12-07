@@ -5,11 +5,6 @@
   <artifactId>first-maven-project</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-  </properties>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -29,5 +24,17 @@
       </exclusions>
     </dependency>
   </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <configuration>
+          <source>1.8</source>
+          <target>1.8</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
 </project>
